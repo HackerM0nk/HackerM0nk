@@ -1,19 +1,21 @@
+# .github/workflows/blog.yml
 name: Blog posts
 on:
-  schedule: [{ cron: "0 */12 * * *" }]  # update every 12 hours
+  schedule: [{ cron: "0 */12 * * *" }]
   workflow_dispatch:
 permissions:
-  contents: write  # allow the action to commit to README
+  contents: write   # allow the workflow to commit
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: gautamkrishnar/blog-post-workflow@master
+      - uses: actions/checkout@v4    # gives us a real git repo (.git)
+      - name: Update README with latest posts
+        uses: gautamkrishnar/blog-post-workflow@master
         with:
           feed_list: "https://hackerm0nk.github.io/feed.xml"
           max_post_count: 5
-          readme_path: "README.md"  # update your profile README
-          # optional polish:
-          # item_exec: "• [$title]($url) — $date"
-          # committer_username: "github-actions[bot]"
-          # committer_email: "41898282+github-actions[bot]@users.noreply.github.com"
+          readme_path: "README.md"
+          committer_username: "github-actions[bot]"
+          committer_email: "41898282+github-actions[bot]@users.noreply.github.com"
