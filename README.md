@@ -1,6 +1,6 @@
 <picture>
   <!-- Dark mode -->
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:9333ea&height=160&section=header&text=Shivam%20Vaishampayan%20—%20Software%20Security%20Engineer&fontColor=ffffff&fontSize=42&fontAlignY=30" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:9333ea&height=160&section=header&text=Shivam%20Vaishampayan&fontColor=ffffff&fontSize=42&fontAlignY=30" />
   <!-- Light mode -->
   <img alt="Shivam Vaishampayan banner" src="https://capsule-render.vercel.app/api?type=waving&color=0:14b8a6,100:3b82f6&height=160&section=header&text=Shivam%20Vaishampayan%20—%20Software%20Security%20Engineer&fontColor=111827&fontSize=42&fontAlignY=30" />
 </picture>
