@@ -7,7 +7,7 @@
 
 <div align="center">
 
-**Software Security Engineer · Building Secure Cloud-native Systems**
+**Software Security Engineer · Building Secure Cloud-Native Systems**
 
 [Website](https://hackerm0nk.github.io/) · [GitHub](https://github.com/HackerM0nk) · [LinkedIn](https://linkedin.com/in/shivamvv) · [Email](mailto:shivamvviiita@gmail.com)
 
