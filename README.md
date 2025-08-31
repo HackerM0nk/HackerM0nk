@@ -78,5 +78,10 @@ If your team is building cloud‑native products and wants security built into *
 
 ### Latest posts
 <!-- BLOG-POST-LIST:START -->
+- [Defense in Depth for Cloud Native Infrastructure](https://hackerm0nk.github.io/blog/secure-sdlc-by-design/)
+- [Securing Multi-Cloud Networks: From Immediate Controls to Zero Trust](https://hackerm0nk.github.io/blog/multi-cloud-network-security-strategy/)
+- [Eliminating Tech Debt: Automated Dependency Updates &amp;amp; Code Refactoring](https://hackerm0nk.github.io/blog/gitlab-renovate-openrewrite/)
+- [Architecting Security for Products &amp;amp; Distributed Platforms](https://hackerm0nk.github.io/blog/security-arch-review-threat-modeling/)
+- [BYOK and Crypto Shredding for Compliance-Driven Data Protection](https://hackerm0nk.github.io/blog/byok-crypto-shredding-architecture/)
 <!-- BLOG-POST-LIST:END -->
 
