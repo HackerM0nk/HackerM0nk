@@ -1,0 +1,19 @@
+name: Blog posts
+on:
+  schedule: [{ cron: "0 */12 * * *" }]  # update every 12 hours
+  workflow_dispatch:
+permissions:
+  contents: write  # allow the action to commit to README
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://hackerm0nk.github.io/feed.xml"
+          max_post_count: 5
+          readme_path: "README.md"  # update your profile README
+          # optional polish:
+          # item_exec: "• [$title]($url) — $date"
+          # committer_username: "github-actions[bot]"
+          # committer_email: "41898282+github-actions[bot]@users.noreply.github.com"
