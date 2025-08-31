@@ -47,14 +47,14 @@ If your team is building cloud‑native products and wants security built into *
 
 ### Tech Stack
 
-**Languages:** C++, Python, Go, Node.js
-**Cloud:** AWS, Azure, GCP
-**Orchestration:** Kubernetes (EKS/AKS/GKE)
-**Pipelines & IaC:** GitHub Actions, GitLab CI, Terraform, Helm, Ansible
-**Data & Messaging:** PostgreSQL, Redis, MongoDB, Kafka
-**Observability:** Prometheus, Grafana, OpenTelemetry
-**Security (practical):** secrets management, image signing & SBOMs, policy‑as‑code in CI, least‑privilege by default
-**Systems:** Linux, eBPF, debugging in prod
+* **Languages:** C++, Python, Go, Node.js
+* **Cloud:** AWS, Azure, GCP
+* **Orchestration:** Containers & Kubernetes (EKS/AKS/GKE)
+* **Pipelines & IaC:** GitHub Actions, GitLab CI, Terraform, Helm, Ansible
+* **Data & Messaging:** PostgreSQL, Redis, MongoDB, Kafka
+* **Observability:** Prometheus, Grafana, OpenTelemetry
+* **Security (practical):** secrets management, image signing & SBOMs, policy‑as‑code in CI, least‑privilege by default
+* **Systems:** Linux, eBPF, debugging in prod
 
 ---
 
