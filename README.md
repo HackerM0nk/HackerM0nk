@@ -49,3 +49,154 @@ If your team is building cloud‑native products and wants security built into *
 ---
 
 > Based in India (IST, UTC+5:30). Let’s connect if this aligns with what you’re building.
+
+
+Below are copy‑paste snippets you can add **under Tech Stack** (or wherever you like). Keep the top clean; tuck the bling in collapsible sections.
+
+### 1) Dark/Light banner (tasteful)
+
+```html
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:9333ea&height=140&section=header&text=Shivam%20Vaishampayan&fontColor=ffffff&fontSize=42&fontAlignY=30" />
+  <img alt="Shivam banner" src="https://capsule-render.vercel.app/api?type=waving&color=0:14b8a6,100:3b82f6&height=140&section=header&text=Shivam%20Vaishampayan&fontColor=111827&fontSize=42&fontAlignY=30" />
+</picture>
+```
+
+### 2) Compact badge row
+
+```md
+[![Website](https://img.shields.io/badge/Website-visit-0ea5e9)](https://your-website.example)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-shivamvv-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/shivamvv)
+[![GPG](https://img.shields.io/badge/GPG-verify-4ade80)](#)
+```
+
+### 3) GitHub stats (hide behind a toggle)
+
+```html
+<details>
+  <summary>GitHub stats (click to open)</summary>
+
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=HackerM0nk&show_icons=true&hide_border=true" alt="stats" />
+    <br/>
+    <img src="https://streak-stats.demolab.com?user=HackerM0nk&hide_border=true" alt="streak" />
+  </p>
+</details>
+```
+
+### 4) Contribution “snake” (Action + badge)
+
+**Workflow:** `.github/workflows/snake.yml`
+
+```yaml
+name: Generate snake
+on:
+  schedule: [{ cron: "0 0 * * *" }]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: HackerM0nk
+          outputs: dist/snake.svg
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+**Embed:**
+
+```md
+![snake gif](https://raw.githubusercontent.com/HackerM0nk/HackerM0nk/output/snake.svg)
+```
+
+### 5) lowlighter/metrics (pro dashboard)
+
+**Create PAT** (classic) with `public_repo, read:user`. Save as secret `METRICS_TOKEN`.
+**Workflow:** `.github/workflows/metrics.yml`
+
+```yaml
+name: Metrics
+on:
+  schedule: [{ cron: "0 6 * * *" }]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header, activity, repositories
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_habits: yes
+          plugin_stars: yes
+```
+
+**Embed:**
+
+```md
+![metrics](https://github.com/HackerM0nk/HackerM0nk/blob/main/metrics.svg)
+```
+
+### 6) Latest blog posts (auto‑updated)
+
+**Workflow:** `.github/workflows/blog.yml`
+
+```yaml
+name: Blog posts
+on:
+  schedule: [{ cron: "0 */12 * * *" }]
+  workflow_dispatch:
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://your-website.example/feed.xml"
+          max_post_count: 5
+```
+
+**Embed placeholder:**
+
+```md
+### Latest posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+```
+
+### 7) Architecture card (Mermaid)
+
+```mermaid
+flowchart LR
+  A[Client] -->|mTLS| GW[Gateway]
+  GW -->|JWT| SVC[Service]
+  SVC -->|TLS| DB[(Data store)]
+  SVC -->|Events| Q[(Kafka)]
+  subgraph Guardrails
+    P[CI policy] --> I[Image signing]
+    I --> D[Deploy]
+  end
+```
+
+### 8) Pinned projects grid (with short blurbs)
+
+```md
+| Project | What | Stack |
+|---|---|---|
+| **CI Guardrails** | Pre‑merge policies: secrets, SAST/SCA, signing. | GitHub Actions, OPA, Cosign |
+| **IaC Baselines** | Terraform/Helm modules with sane defaults. | Terraform, Helm |
+| **Runtime Basics** | Logs/metrics/traces that answer real questions. | OpenTelemetry, Grafana |
+```
+
+> Tip: keep the **top** of the README clean and fast. Put heavy widgets in `<details>`.
+
