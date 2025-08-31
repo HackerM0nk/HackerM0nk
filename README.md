@@ -1,10 +1,3 @@
-<picture>
-  <!-- Dark mode -->
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:9333ea&height=160&section=header&text=Shivam%20V.%20—%20Software%20Security%20Engineer&fontColor=ffffff&fontSize=42&fontAlignY=30" />
-  <!-- Light mode -->
-  <img alt="Shivam Vaishampayan banner" src="https://capsule-render.vercel.app/api?type=waving&color=0:14b8a6,100:3b82f6&height=160&section=header&text=Shivam%20V.%20—%20Software%20Security%20Engineer&fontColor=111827&fontSize=42&fontAlignY=30" />
-</picture>
-
 [![Website](https://img.shields.io/badge/Website-visit-0ea5e9?logo=googlechrome&logoColor=white)](https://your-website.example)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-shivamvv-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/shivamvv)
 [![GitHub followers](https://img.shields.io/github/followers/HackerM0nk?label=Follow&logo=github&style=flat)](https://github.com/HackerM0nk)
@@ -83,3 +76,9 @@ If your team is building cloud‑native products and wants security built into *
 - [BYOK and Crypto Shredding for Compliance-Driven Data Protection](https://hackerm0nk.github.io/blog/byok-crypto-shredding-architecture/)
 <!-- BLOG-POST-LIST:END -->
 
+<picture>
+  <!-- Dark mode -->
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:9333ea&height=160&section=header&text=Shivam%20V.%20—%20Software%20Security%20Engineer&fontColor=ffffff&fontSize=42&fontAlignY=30" />
+  <!-- Light mode -->
+  <img alt="Shivam Vaishampayan banner" src="https://capsule-render.vercel.app/api?type=waving&color=0:14b8a6,100:3b82f6&height=160&section=header&text=Shivam%20V.%20—%20Software%20Security%20Engineer&fontColor=111827&fontSize=42&fontAlignY=30" />
+</picture>
