@@ -76,3 +76,7 @@ If your team is building cloud‑native products and wants security built into *
   </p>
 </details>
 
+### Latest posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
