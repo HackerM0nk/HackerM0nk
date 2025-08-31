@@ -17,7 +17,7 @@
 
 I'm Shivam. I’m a software security engineer focused on securing cloud-native products and platforms.
 
-How I look at this work: **security should feel like part of engineering**, not a separate track. We use **infrastructure as code** as the source of truth, keep defaults sensible, and measure the few signals that actually show whether the system is healthy. The aim is simple: make it easy to do the right thing and obvious when something drifts.
+How I look at this work: **security should feel like part of engineering**, not a separate track. I like to consider **Source Code and IaC** as the source of truth, keep defaults sensible, and measure the few metrics that actually show whether the systems are secure. The aim is simple: make it easy to do the right thing and obvious when something drifts.
 
 ---
 
