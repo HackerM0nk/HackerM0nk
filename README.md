@@ -13,13 +13,6 @@
 
 </div>
 
-<p align="center">
-  <a href="https://hackerm0nk.github.io/"><img alt="Website" src="https://img.shields.io/badge/Website-visit-0ea5e9?logo=googlechrome&logoColor=white"></a>
-  <a href="https://linkedin.com/in/shivamvv"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-shivamvv-0A66C2?logo=linkedin&logoColor=white"></a>
-  <a href="https://github.com/HackerM0nk"><img alt="GitHub followers" src="https://img.shields.io/github/followers/HackerM0nk?label=Follow&logo=github&style=flat"></a>
-  <a href="mailto:shivamvviiita@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-shivamvviiita%40gmail.com-4B5563?logo=gmail&logoColor=white"></a>
-</p>
-
 ### Hi
 
 I'm Shivam. I’m a software security engineer focused on securing cloud-native products and platforms.
