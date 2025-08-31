@@ -22,7 +22,7 @@ How I look at this work: **Security** should feel like part of **Engineering**, 
 
 ---
 
-### Experience
+### What I Do
 
 I build security into how software is designed, built, delivered, and run. At design time I map the data flows and call out the risks that matter for the feature in front of us. While building, I write code and tests and move the checks into CI so they run every time—secrets stay out of source, dependencies and images are verified, and policies gate what we merge. For delivery, the path is clear and repeatable: reproducible builds, signed artifacts, minimal images, scoped access, and a release process the team can trust. In production I watch the signals, help handle incidents, and turn what we learned into changes in code, pipelines, or infrastructure.
 
