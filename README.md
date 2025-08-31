@@ -13,9 +13,9 @@
 
 </div>
 
-### Hi there
+### Hi
 
-I'm Shivam. I’m a Software Security Engineer focused on securing Cloud-Native Products & Platforms throughout the SDLC.
+I'm Shivam. I’m a Software Security Engineer focused on securing Cloud-Native Products & Platforms.
 
 How I look at this work: **Security** should feel like part of **Engineering**, not a separate track. We use **infrastructure as code** as the source of truth, keep defaults sensible, and measure the few things that actually show whether the system is healthy. The aim is straightforward: make it easy to do the right thing and obvious when something drifts.
 
