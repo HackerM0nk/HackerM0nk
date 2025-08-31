@@ -61,11 +61,6 @@ If your team is building cloud-native products and wants security built into the
 
 ### Latest posts
 <!-- BLOG-POST-LIST:START -->
-- [Crypto-Shredding in Practice: Field-Level Encryption with Vault Transit at Scale](https://hackerm0nk.github.io/blog/crypto-shredding-with-vault-transit/)
-- [Defense in Depth for Cloud Native Infrastructure](https://hackerm0nk.github.io/blog/secure-sdlc-by-design/)
-- [Distributed Systems, Seen Through a Security Lens](https://hackerm0nk.github.io/blog/distributed-systems-security-lens/)
-- [Securing Multi-Cloud Networks: From Immediate Controls to Zero Trust](https://hackerm0nk.github.io/blog/multi-cloud-network-security-strategy/)
-- [Eliminating Tech Debt: Automated Dependency Updates &amp;amp; Code Refactoring](https://hackerm0nk.github.io/blog/gitlab-renovate-openrewrite/)
 <!-- BLOG-POST-LIST:END -->
 
 <details>
@@ -74,10 +69,9 @@ If your team is building cloud-native products and wants security built into the
   <p align="center">
     <img src="https://github-readme-stats.vercel.app/api?username=HackerM0nk&show_icons=true&hide_border=true" alt="GitHub stats" />
     <br/>
-    <img src="https://streak-stats.demolab.com?user=HackerM0nk&hide_border=true" alt="GitHub streak" />
-    <!-- Optional: Top languages (comment in if you really want it) -->
-    <!-- <br/>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HackerM0nk&layout=compact&hide_border=true" alt="Top languages" /> -->
+    <img src="https://streak-stats.demolab.com?user=HackerM0Nk&hide_border=true" alt="GitHub streak" />
+    <br/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HackerM0nk&layout=compact&hide_border=true" alt="Top languages" />
   </p>
 </details>
 
