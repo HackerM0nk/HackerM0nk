@@ -83,3 +83,10 @@ If your team is building cloud‑native products and wants security built into *
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-shivamvv-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/shivamvv)
 [![GitHub followers](https://img.shields.io/github/followers/HackerM0nk?label=Follow&logo=github&style=flat)](https://github.com/HackerM0nk)
 [![Email](https://img.shields.io/badge/Email-shivamvviiita%40gmail.com-4B5563?logo=gmail&logoColor=white)](mailto:shivamvviiita@gmail.com)
+
+<details>
+  <summary>Contributions (fun)</summary>
+  <br>
+  <img src="https://raw.githubusercontent.com/HackerM0nk/HackerM0nk/output/snake.svg" alt="snake" />
+</details>
+
