@@ -27,17 +27,15 @@ I’m a software security engineer who builds security into how cloud-native sys
 
 What I do (end-to-end)
 
-Design & threat modeling: Map data flows early, call out material risks, choose controls that match the feature. Encode decisions in CI/CD (required checks, signatures, policies) so “approved” == “passing.”
+**Design & Threat Modeling**: Map data flows early, call out material risks, choose controls that match the feature. Encode decisions in CI/CD (required checks, signatures, policies) so “approved” == “passing.”
 
-Code security: Keep secrets out of source; run Gitleaks/secret rotation, SAST where it pays off, SCA with license policy; container image scanning; protect against dependency confusion/typosquatting via scoped registries, verified publishers, and pinning.
+**Code security**: Keep secrets out of source; run Gitleaks/secret rotation, SAST where it pays off, SCA with license policy; container image scanning; protect against dependency confusion/typosquatting via scoped registries, verified publishers, and pinning.
 
-Delivery & supply chain: Reproducible builds, artifact signing/attestations, minimal images, SBOMs, and policy gates on merge and deploy. Clear, repeatable promotion between environments.
+**Delivery & Supply Chain**: Reproducible builds, artifact signing/attestations, minimal images, SBOMs, and policy gates on merge and deploy. Clear, repeatable promotion between environments.
 
-IaC & cloud posture: Terraform/Helm as truth, policy-as-code guardrails, drift detection, and CNAPP coverage that turns findings into issues—not dashboards.
+**IaC & cloud posture**: Terraform/Helm as truth, policy-as-code guardrails, drift detection, and CNAPP coverage that turns findings into issues—not dashboards.
 
-Runtime & distributed systems: Service identity and scoped communication (mTLS/mesh), network segmentation, timeouts/backpressure, idempotency, multi-tenant defaults, and observability that traces calls across the platform.
-
-Operations: Practical incident response (playbooks, roles, comms), metrics/logs/traces that answer real questions, and a habit of turning post-mortems into code or pipeline changes. Regular access reviews and key rotation.
+**Distributed Systems**: Service identity and scoped communication (mTLS/mesh), network segmentation, timeouts/backpressure, idempotency, multi-tenant defaults, and observability that traces calls across the platform.
 
 ---
 
