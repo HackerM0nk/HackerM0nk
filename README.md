@@ -13,9 +13,9 @@
 
 </div>
 
-### Hi
+### HELLO :wave:
 
-I'm Shivam. I’m a software security engineer focused on securing cloud-native products and platforms.
+I’m a software security engineer focused on securing cloud-native products and platforms.
 
 How I look at this work: **security should feel like part of engineering**, not a separate track. I like to consider **Source Code and IaC** as the source of truth, keep defaults sensible, and measure the few metrics that actually show whether the systems are secure. The aim is simple: make it easy to do the right thing and obvious when something drifts.
 
