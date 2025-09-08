@@ -15,15 +15,13 @@
 
 ### HELLO :wave:
 
-I’m a software security engineer focused on securing cloud-native Platforms and Products.
+I’m a Software Security Engineer focused on securing cloud-native Platforms and Products.
 
 Security isn’t a side quest—it’s part of how we build. I lean on code and IaC as the ground truth, use sensible defaults, and track a few meaningful signals. The aim: make the right thing easy and drift impossible to miss.
 
 ---
 
 ### What I Do
-
-About — Security-First Platform Engineer
 
 I’m a software security engineer who builds security into how cloud-native systems are designed, built, shipped, and run. My bias: security should feel like part of engineering—not a separate lane. I treat application code and IaC as the source of truth, set sane defaults, and measure the few signals that actually show whether we’re safe and compliant. The goal is simple: make the secure path the easy path, and make drift obvious.
 
