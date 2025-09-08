@@ -25,7 +25,6 @@ Security isn’t a side quest—it’s part of how we build. I lean on code and 
 
 I’m a software security engineer who builds security into how cloud-native systems are designed, built, shipped, and run. My bias: security should feel like part of engineering—not a separate lane. I treat application code and IaC as the source of truth, set sane defaults, and measure the few signals that actually show whether we’re safe and compliant. The goal is simple: make the secure path the easy path, and make drift obvious.
 
-What I do (end-to-end)
 
 **Design & Threat Modeling**: Map data flows early, call out material risks, choose controls that match the feature. Encode decisions in CI/CD (required checks, signatures, policies) so “approved” == “passing.”
 
