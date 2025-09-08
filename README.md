@@ -15,25 +15,31 @@
 
 ### HELLO :wave:
 
-I’m a software security engineer focused on securing cloud-native products and platforms.
+I’m a software security engineer focused on securing cloud-native Platforms and Products.
 
-How I look at this work: **security should feel like part of engineering**, not a separate track. I like to consider **Source Code and IaC** as the source of truth, keep defaults sensible, and measure the few metrics that actually show whether the systems are secure. The aim is simple: make it easy to do the right thing and obvious when something drifts.
+Security isn’t a side quest—it’s part of how we build. I lean on code and IaC as the ground truth, use sensible defaults, and track a few meaningful signals. The aim: make the right thing easy and drift impossible to miss.
 
 ---
 
 ### What I Do
 
-I build security into how software is designed, built, delivered, and run. At design time I map the data flows and call out the risks that matter for the feature in front of us. While building, I write code and tests and move the checks into CI so they run every time—secrets stay out of source, dependencies and images are verified, and policies gate what we merge. For delivery, the path is clear and repeatable: reproducible builds, signed artifacts, minimal images, scoped access, and a release process the team can trust. In production I watch the signals, help handle incidents, and turn what we learned into changes in code, pipelines, or infrastructure.
+About — Security-First Platform Engineer
 
-Areas I cover in practice:
+I’m a software security engineer who builds security into how cloud-native systems are designed, built, shipped, and run. My bias: security should feel like part of engineering—not a separate lane. I treat application code and IaC as the source of truth, set sane defaults, and measure the few signals that actually show whether we’re safe and compliant. The goal is simple: make the secure path the easy path, and make drift obvious.
 
-* **Threat modeling:** one-page notes; early design reviews that set sensible defaults; define what the feature really needs; encode decisions in CI/CD (signing, checks, required contexts) so sign-off equals passing tests.
-* **Code security:** keep secrets out of source; secret scanning and rotation; SAST where it pays off; SCA with license policy; container image scans; defenses against dependency confusion/typosquatting (scoped registries, verified publishers, checksum/pinning); pre-merge policy gates that run every time.
-* **IaC & cloud environments:** Terraform/Helm as source of truth; policy-as-code guardrails and drift detection; clear promotion between stages; CNAPP coverage that maps assets/misconfig/runtime and feeds issues—not dashboards.
-* **Distributed systems:** service identity and scoped communication; network segmentation; timeouts and backpressure; idempotent operations; multi-tenant defaults; defense-in-depth across the platform (ingress → mesh/gateway → services → data stores) with ownership and observability at each hop.
-* **Operations:** incident response (on-call playbooks, comms, roles) first; metrics/logs/traces that answer real questions; post-incident fixes become changes in code or pipelines; regular access reviews and key rotation.
+What I do (end-to-end)
 
-If your team is building cloud-native products and wants security built into the **SDLC**—not bolted on later—that’s the kind of work I do.
+Design & threat modeling: Map data flows early, call out material risks, choose controls that match the feature. Encode decisions in CI/CD (required checks, signatures, policies) so “approved” == “passing.”
+
+Code security: Keep secrets out of source; run Gitleaks/secret rotation, SAST where it pays off, SCA with license policy; container image scanning; protect against dependency confusion/typosquatting via scoped registries, verified publishers, and pinning.
+
+Delivery & supply chain: Reproducible builds, artifact signing/attestations, minimal images, SBOMs, and policy gates on merge and deploy. Clear, repeatable promotion between environments.
+
+IaC & cloud posture: Terraform/Helm as truth, policy-as-code guardrails, drift detection, and CNAPP coverage that turns findings into issues—not dashboards.
+
+Runtime & distributed systems: Service identity and scoped communication (mTLS/mesh), network segmentation, timeouts/backpressure, idempotency, multi-tenant defaults, and observability that traces calls across the platform.
+
+Operations: Practical incident response (playbooks, roles, comms), metrics/logs/traces that answer real questions, and a habit of turning post-mortems into code or pipeline changes. Regular access reviews and key rotation.
 
 ---
 
