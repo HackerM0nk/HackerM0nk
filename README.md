@@ -55,11 +55,11 @@ I’m a software security engineer who builds security into how cloud-native sys
 
 ### Latest posts
 <!-- BLOG-POST-LIST:START -->
-- [IPO-Ready Security for Distributed Systems: A Friendly, Thorough Guide](https://hackerm0nk.github.io/blog/ipo-ready-security/)
-- [Crypto-Shredding in Practice: Field-Level Encryption with Vault Transit at Scale](https://hackerm0nk.github.io/blog/crypto-shredding-with-vault-transit/)
-- [Designing Security into Distributed Systems: A Friendly, Thorough Guide](https://hackerm0nk.github.io/blog/distributed-systems-security/)
-- [Defense in Depth for Cloud Native Infrastructure](https://hackerm0nk.github.io/blog/secure-sdlc-by-design/)
-- [Securing Multi-Cloud Networks: From Immediate Controls to Zero Trust](https://hackerm0nk.github.io/blog/multi-cloud-network-security-strategy/)
+- [Musings on Antifragile — Dancing in the Storm](https://hackerm0nk.github.io/2025/09/14/antifragile-musings/)
+- [Gödel, Escher, Bach — A Timeless Meditation on Minds, Patterns, and the Infinite](https://hackerm0nk.github.io/2025/09/14/godel-escher-bach-review/)
+- [IPO-Ready Security for Distributed Systems: A Friendly, Thorough Guide](https://hackerm0nk.github.io/2025/09/06/ipo-readiness/)
+- [Crypto-Shredding in Practice: Field-Level Encryption with Vault Transit at Scale](https://hackerm0nk.github.io/2025/08/29/crypto-shredding/)
+- [Designing Security into Distributed Systems: A Friendly, Thorough Guide](https://hackerm0nk.github.io/2025/08/19/securing-distributed-systems/)
 <!-- BLOG-POST-LIST:END -->
 
 <details>
