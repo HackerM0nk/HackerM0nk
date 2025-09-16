@@ -55,7 +55,7 @@ I’m a software security engineer who builds security into how cloud-native sys
 
 ### Latest posts
 <!-- BLOG-POST-LIST:START -->
-- [Musings on Antifragile — Dancing in the Storm](https://hackerm0nk.github.io/2025/09/14/antifragile-musings/)
+- [Musings on Antifragile](https://hackerm0nk.github.io/2025/09/14/antifragile-musings/)
 - [Gödel, Escher, Bach — A Timeless Meditation on Minds, Patterns, and the Infinite](https://hackerm0nk.github.io/2025/09/14/godel-escher-bach-review/)
 - [IPO-Ready Security for Distributed Systems: A Friendly, Thorough Guide](https://hackerm0nk.github.io/2025/09/06/ipo-readiness/)
 - [Crypto-Shredding in Practice: Field-Level Encryption with Vault Transit at Scale](https://hackerm0nk.github.io/2025/08/29/crypto-shredding/)
