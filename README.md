@@ -26,7 +26,7 @@ Security isn’t a side quest—it’s part of how we build. I lean on code and 
 I’m a software security engineer who builds security into how cloud-native systems are designed, built, shipped, and run. My bias: security should feel like part of engineering—not a separate lane. I treat application code and IaC as the source of truth, set sane defaults, and measure the few signals that actually show whether we’re safe and compliant. The goal is simple: make the secure path the easy path, and make drift obvious.
 
 
-**Design & Threat Modeling**: Map data flows early, call out material risks, choose controls that match the feature. Encode decisions in CI/CD (required checks, signatures, policies) so “approved” == “passing.”
+**Design & Threat Modeling**: Map data flows early, call out risks, choose controls that match the feature. Encode decisions in CI/CD (required checks, signatures, policies).
 
 **Code security**: Keep secrets out of source; run Gitleaks/secret rotation, SAST where it pays off, SCA with license policy; container image scanning; protect against dependency confusion/typosquatting via scoped registries, verified publishers, and pinning.
 
