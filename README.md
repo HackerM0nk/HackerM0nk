@@ -51,6 +51,5 @@ I’m a software security engineer who builds security into how cloud-native sys
 
 ---
 
-> Based in India (IST, UTC+5:30). Open to roles focused on secure SDLC and cloud-native platforms.
 
 
