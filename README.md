@@ -53,30 +53,4 @@ I’m a software security engineer who builds security into how cloud-native sys
 
 > Based in India (IST, UTC+5:30). Open to roles focused on secure SDLC and cloud-native platforms.
 
-    <!-- This is a comment that will not be rendered. -->
-### Latest posts
-<!-- BLOG-POST-LIST:START -->
-- [Musings on Antifragile](https://hackerm0nk.github.io/2025/09/14/antifragile-musings/)
-- [Gödel, Escher, Bach — A Timeless Meditation on Minds, Patterns, and the Infinite](https://hackerm0nk.github.io/2025/09/14/godel-escher-bach-review/)
-- [IPO-Ready Security for Distributed Systems: A Friendly, Thorough Guide](https://hackerm0nk.github.io/2025/09/06/ipo-readiness/)
-- [Crypto-Shredding in Practice: Field-Level Encryption with Vault Transit at Scale](https://hackerm0nk.github.io/2025/08/29/crypto-shredding/)
-- [Designing Security into Distributed Systems: A Friendly, Thorough Guide](https://hackerm0nk.github.io/2025/08/19/securing-distributed-systems/)
-<!-- BLOG-POST-LIST:END -->
 
-<!-- <details>
-  <summary><b>GitHub stats</b></summary>
-  <br>
-  <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=HackerM0nk&show_icons=true&hide_border=true" alt="GitHub stats" />
-    <br/>
-    <img src="https://streak-stats.demolab.com?user=HackerM0Nk&hide_border=true" alt="GitHub streak" />
-    <br/>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HackerM0nk&layout=compact&hide_border=true" alt="Top languages" />
-  </p>
-</details> -->
-
-<!-- <details>
-  <summary>Contributions (fun)</summary>
-  <br>
-  <img src="https://raw.githubusercontent.com/HackerM0nk/HackerM0nk/output/snake.svg" alt="snake" />
-</details> -->
