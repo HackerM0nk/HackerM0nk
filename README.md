@@ -52,7 +52,7 @@ I’m a software security engineer who builds security into how cloud-native sys
 ---
 
 
-<!-- <details>
+<details>
   <summary><b>GitHub stats</b></summary>
   <br>
   <p align="center">
@@ -62,10 +62,10 @@ I’m a software security engineer who builds security into how cloud-native sys
     <br/>
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HackerM0nk&layout=compact&hide_border=true" alt="Top languages" />
   </p>
-</details> -->
+</details>
 
-<!-- <details>
+<details>
   <summary>Contributions (fun)</summary>
   <br>
   <img src="https://raw.githubusercontent.com/HackerM0nk/HackerM0nk/output/snake.svg" alt="snake" />
-</details> -->
+</details>
